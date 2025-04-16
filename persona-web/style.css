@@ -1,28 +1,66 @@
 body {
-    background-color: rgb(254, 149, 149);
-    color: #400101;
+    background-color: black;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
-h1 {
-    color: #8d0000;
+div {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 890px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
+
+.back {
+    background-color: white;
+    width: 950px;
+}
+
+.img {
+    box-shadow: rgb(32, 32, 32) 0px 20px 30px -10px;
+    border-radius: 10px;
+    display: flex;
+    margin: 0 auto;
+    height: 250px;
+    border: 2px solid;
+    border-color: grey;
+}
 .Introdução {
+    background-color: rgb(118, 25, 25);
+    color: white;
+    
 
 }
 
 .Historia {
+    background-color: rgb(27, 37, 109);
+    color: white;
+    
 
 }
 
 .Habilidades {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
 
 }
 
 .Caracteristicas {
+    background-color: rgb(27, 37, 109);
+    color: white;
+    
 
 }
 
 .Curiosidades {
+    background-color: rgb(118, 25, 25);
+    color: white;
     
+
+}
+
+footer {
+    text-align: center;
 }
